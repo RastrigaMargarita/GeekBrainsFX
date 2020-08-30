@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.Controller">
+   <children>
+      <Label text="Диалог:" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="4.0">
+      </Label>
+      <TextArea fx:id="textArea" editable="false" focusTraversable="false" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="45.0"/>
+      <TextField fx:id="textField" onAction="#onButtonClick" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="100.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Button onAction="#onButtonClick" text="Послать &gt;&gt;" AnchorPane.bottomAnchor="4.0" AnchorPane.rightAnchor="4.0"/>
+   </children>
+</AnchorPane>
