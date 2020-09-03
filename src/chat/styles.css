@@ -1,0 +1,13 @@
+.button {
+    -fx-text-fill: #7d399a;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #f1d6ff;
+}
+
+.label {
+    -fx-text-fill: #7d399a;
+    -fx-font-size: 21px;
+}
